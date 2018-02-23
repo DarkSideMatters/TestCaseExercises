@@ -32,7 +32,7 @@ Int year has to be a number of Integer type above 0, not Double.
 Boundary value analysis is not possible to be used where there is no range for both even and odd numbers.
 
 2.Do boundary value analysis for input values exercise 2
-         999|1000            74.999|75.001
+ 
 ------------|-----------------------|-------------
 
        1000                 75.000            values
@@ -42,7 +42,7 @@ If the value is in the range of over 1000 and  under 75.000, it is valid.
 If the value is above 75.000, it is invalid.
 
 3.Do boundary value analysis for input values exercise 3
-         0|2                     11|13
+
 ------------|-----------------------|-------------
 
        1                 12                   months
