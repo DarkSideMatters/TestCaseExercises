@@ -9,6 +9,7 @@ If the provided input is uneven, the result will be False.
 2. The valid range is $1000 pr. month to $75,000 pr. month
 
 | EQUIVALENCE CLASSES	| TEST CASE(isEven) |
+|---|---|
 | salary < 1000 | invalid |
 | salary > 75.000 |	invalid |
 | salary >= 1000 |	valid |
@@ -17,6 +18,7 @@ If the provided input is uneven, the result will be False.
 3.Make equivalences classes for the input variables for this method: public static int getNumDaysinMonth(int month, int year)
 
 | EQUIVALENCE CLASSES	| TEST CASE(int month, int year) |
+|---|---|
 | month < 1 |	invalid |
 | month > 12 | invalid |
 | 1 < month < 12 | valid |
@@ -31,7 +33,6 @@ Boundary value analysis is not possible to be used where there is no range for b
 
 2.Do boundary value analysis for input values exercise 2
 
- 999 |  1001          74.999 | 75.001         over/under boundary values
 ------------|-----------------------|-------------
 
        1000                 75.000            values
@@ -42,7 +43,6 @@ If the value is above 75.000, it is invalid.
 
 3.Do boundary value analysis for input values exercise 3
 
-0 |  2          11 | 13                       over/under boundary values
 ------------|-----------------------|-------------
 
        1                 12                   months
@@ -58,9 +58,11 @@ No set range for years.
 1.Decision table for the business case.
 
 |CONDITION| | | |	|			
+|---|---|---|---|---|
 |Hospital|T|T|F|F|
 |Doctor|T|F|T|F|
 |ACTION	|	| | | |
+|---|---|---|---|---|
 |0%	|	| | |T|
 |50%| | |T| |
 |80%|T|T| | |
@@ -68,16 +70,18 @@ No set range for years.
 2.Decision table for leap years.
 
 |CONDITION| | | | | | | | |
+|---|---|---|---|---|---|---|---|---|
 |Leap year|T|T|T|F|F|F|T|F|
 |/ 100|T|T|F|T|F|F|F|T|
 |/ 400|T|F|F|T|F|T|T|F|
 |ACTION	| | | | | | | | |
+|---|---|---|---|---|---|---|---|---|
 |Leap year|T|T|T|F|F|F|T|F|
 
 #State transition
 
 1.State diagram depicting the states of MyArrayListWithBugs.java
-![alt text](http://url/to/img.png)
+![alt text](statediagram.jpg)
 
 2.Test cases from the state diagram
 
@@ -86,7 +90,7 @@ No set range for years.
 - S3 - index out of bound
 - S4 - expanded list
 
-![alt text](http://url/to/img.png)
+![alt text](statetable.jpg)
 
 3.
 
