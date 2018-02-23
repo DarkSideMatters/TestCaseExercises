@@ -61,6 +61,7 @@ No set range for years.
 |---|---|---|---|---|
 |Hospital|T|T|F|F|
 |Doctor|T|F|T|F|
+|---|---|---|---|---|
 |ACTION	|	| | | |
 |---|---|---|---|---|
 |0%	|	| | |T|
@@ -74,6 +75,7 @@ No set range for years.
 |Leap year|T|T|T|F|F|F|T|F|
 |/ 100|T|T|F|T|F|F|F|T|
 |/ 400|T|F|F|T|F|T|T|F|
+|---|---|---|---|---|---|---|---|---|
 |ACTION	| | | | | | | | |
 |---|---|---|---|---|---|---|---|---|
 |Leap year|T|T|T|F|F|F|T|F|
